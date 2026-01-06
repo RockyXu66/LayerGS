@@ -1,0 +1,41 @@
+parent: default_tex
+subject: "0000"
+data_dir: data/thuman21
+out_dir: results/thuman21
+geometry_dir: geometry
+
+text: "a photo of a man wearing a white tank top"
+negative_text: "muscular, close up, cropped, worst quality, low quality, jpeg artifacts, duplicate, morbid, mutilated, mutation, deformed, blurry, bad anatomy, bad proportions, long neck"
+# text: "a photo of a man wearing a white tank top"
+# text: "a photo of a man wearing a white tank top and grey underpants"
+# text: "a photo of a man wearing a white tank top and grey tight shorts"
+# text: "a photo of a man wearing a white tank top and white tight shorts"
+# text: "a photo of a naked man wearing a white underwear"    # doesn't work
+# text: "a photo of a naked man wearing a white tight underpants"
+# text: "a photo of a naked man wearing white brief‑length tight shorts"
+# text: "a photo of a man only wearing white brief‑length tight shorts"
+# text: "a photo of a man only wearing white tight short shorts"
+# text: "a photo of a man only wearing white underpants"
+# text: "a photo of a man only wearing white boxers"
+# text: "a photo of a man only wearing white short boxers"
+# text: "a photo of a man only wearing white boxer shorts"
+# text: "a photo of a man only wearing white tight athletic shorts"
+# text: "a photo of a man only wearing very short white shorts"                                         # Good result
+# text: "a photo of a naked man wearing very short white shorts"
+# text: "a photo of a shirtless man wearing very short white shorts"                                    # Good results
+# text: "a photo of a shirtless man wearing very short white shorts, realistic"
+# text: "a photo of a shirtless man wearing pants"
+# negative_text: "tshirts, jacket, tank top, (semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4), close up, cropped, worst quality, low quality, jpeg artifacts, duplicate, morbid, mutilated, mutation, deformed, blurry, bad anatomy, bad proportions, muscular"
+# negative_text: "shadow, (deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4), close up, cropped, worst quality, low quality, jpeg artifacts, duplicate, morbid, mutilated, mutation, deformed, blurry, bad anatomy, bad proportions, long neck"
+# negative_text: "belt, tshirts, jacket, tank top, close up, cropped, worst quality, low quality, jpeg artifacts, duplicate, morbid, mutilated, mutation, deformed, blurry, bad anatomy, bad proportions, muscular"
+text_obj: "a photo of a man wearing a jacket"
+# text_obj: "a photo of a shirtless man wearing pants"
+negative_text_obj: ""
+
+add_directional_text: true
+# add_directional_text: false
+
+# resume
+resume: false
+save_ckpt: false
+resume_ckpt: ""

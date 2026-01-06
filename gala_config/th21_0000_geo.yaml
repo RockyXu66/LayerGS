@@ -1,0 +1,14 @@
+parent: default_geo
+subject: "0000"
+data_dir: data/thuman21
+out_dir: results/thuman21
+
+text: "a photo of a man wearing a white t-shirt"
+negative_text: "a jacket"
+text_obj: "a photo of a man wearing a jacket"
+negative_text_obj: ""
+
+# resume
+resume: false
+save_ckpt: false
+resume_ckpt: ""

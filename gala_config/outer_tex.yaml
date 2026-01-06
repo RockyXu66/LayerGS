@@ -1,0 +1,18 @@
+parent: default_tex
+subject: "0000"
+data_dir: data/thuman21
+out_dir: results/thuman21
+geometry_dir: geometry
+
+text: "a photo of a man wearing a jacket"
+negative_text: "close up, cropped, worst quality, low quality, jpeg artifacts, duplicate, morbid, mutilated, mutation, deformed, blurry, bad anatomy, bad proportions, muscular"
+text_obj: "a photo of a shirtless man wearing pants"
+negative_text_obj: ""
+
+add_directional_text: true
+# add_directional_text: false
+
+# resume
+resume: false
+save_ckpt: false
+resume_ckpt: ""

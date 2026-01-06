@@ -1,0 +1,24 @@
+parent: default_tex
+subject: "0000"
+data_dir: data/thuman21
+out_dir: results/thuman21
+geometry_dir: geometry
+
+# text: "a photo of a man wearing pants and a white tank top"
+text: "a photo of a man wearing very short white shorts"
+negative_text: "muscular, close up, cropped, worst quality, low quality, jpeg artifacts, duplicate, morbid, mutilated, mutation, deformed, blurry, bad anatomy, bad proportions, long neck"
+# text: "a photo of a man only wearing very short white shorts"                                         # Good result
+# text: "a photo of a shirtless man wearing very short white shorts"                                    # Good results
+# text: "a photo of a shirtless man wearing pants"
+# negative_text: "belt, tshirts, jacket, tank top, close up, cropped, worst quality, low quality, jpeg artifacts, duplicate, morbid, mutilated, mutation, deformed, blurry, bad anatomy, bad proportions, muscular"
+text_obj: "a photo of a man wearing a jacket"
+# text_obj: "a photo of a shirtless man wearing pants"
+negative_text_obj: ""
+
+add_directional_text: true
+# add_directional_text: false
+
+# resume
+resume: false
+save_ckpt: false
+resume_ckpt: ""

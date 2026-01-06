@@ -1,0 +1,49 @@
+# Python cache
+*.pyc
+__pycache__/
+*.egg-info/
+*.so
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg
+
+# Project outputs
+output/
+export/
+debug/
+screenshots/
+tensorboard_3d/
+wandb/
+
+# Data and models
+/data/
+*.mp4
+
+# Temporary and development files
+tmp*.py
+*copy*
+*.log
+
+# Editor
+.vscode/
+*.swp
+*.swo
+.idea/
+
+# Submodules build artifacts (source managed by git submodules)
+submodules/*/build/
+submodules/*/*.egg-info/
+submodules/*/dist/
+
+# SMPL-X model files (need to download separately)
+deformer/data/*.npz
+deformer/data/*.pkl
+deformer/data/*.npy

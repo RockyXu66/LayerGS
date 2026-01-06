@@ -1,0 +1,41 @@
+# Dependencies
+numpy==1.23.1
+opencv-python==4.10.0.84
+imageio>=2.33
+scipy==1.12.0
+Pillow==10.2.0
+scikit-learn==1.4.2
+scikit-image==0.24.0
+
+# 3D processing
+trimesh
+plyfile
+open3d
+pywavefront
+rtree
+
+# Utilities
+loguru
+tqdm
+omegaconf
+ninja
+pyyaml
+imageio-ffmpeg
+jaxtyping
+
+# Diffusion/SDS packages
+huggingface_hub==0.21.4
+diffusers==0.21.4
+transformers==4.40.0
+accelerate==1.0.1
+tokenizers==0.19
+controlnet-aux==0.0.7
+timm==0.6.7
+
+# Evaluation and logging
+lpips
+wandb
+aitviewer
+
+# SMPL-X body model
+smplx
