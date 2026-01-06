@@ -247,14 +247,18 @@ output/<SUBJECT_NAME>/
 │   │       ├── point_cloud_body_cano.ply
 │   │       ├── point_cloud_comp_cano.ply
 │   │       └── mesh/
-│   │           └── mesh-comp_cano.ply
+|   |           ├── mesh-comp_cano.ply
+|   |           └── segms_upper.obj
 │   ├── <STAGE2_NAME>/
 │   │   └── iteration_15000/
 │   │       └── point_cloud_body_cano.ply
 │   └── <STAGE3_NAME>/
 │       └── iteration_10200/
 │           ├── point_cloud_body_cano.ply
-│           └── point_cloud_garment_cano.ply
+│           ├── point_cloud_garment_cano.ply
+│           └── mesh/
+|               ├── mesh-comp_cano.ply
+|               └── segms_upper.obj
 └── train/
 ```
 
