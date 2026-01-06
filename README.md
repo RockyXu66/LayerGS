@@ -1,6 +1,6 @@
 # LayerGS: Decomposition and Inpainting of Layered 3D Human Avatars via 2D Gaussian Splatting
 
-<!-- ### [Project Page](https://your-project-page.github.io) | [Paper](https://arxiv.org/abs/xxxx.xxxxx) | [Video](https://youtube.com) -->
+### [Project Page](https://rockyxu66.github.io/LayerGS-page/) | [Paper](https://github.com/RockyXu66/LayerGS) | [Video](https://github.com/RockyXu66/LayerGS)
 
 > [Yinghan Xu](https://rockyxu66.github.io), [John Dingliana](https://www.scss.tcd.ie/john.dingliana/)
 >
