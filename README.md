@@ -290,3 +290,19 @@ We thank the authors of the following projects for their excellent work:
 - [GALA](https://github.com/snuvclab/gala)
 - [4D-Dress Dataset](https://eth-ait.github.io/4d-dress/)
 - [HumanGaussian](https://github.com/alvinliu0/HumanGaussian)
+
+## BibTeX
+
+If you find LayerGS useful for your research and applications, please cite us using this BibTex:
+
+```bibtex
+@misc{xu2026layergsdecompositioninpaintinglayered,
+      title={LayerGS: Decomposition and Inpainting of Layered 3D Human Avatars via 2D Gaussian Splatting}, 
+      author={Yinghan Xu and John Dingliana},
+      year={2026},
+      eprint={2601.05853},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.05853}, 
+}
+```
